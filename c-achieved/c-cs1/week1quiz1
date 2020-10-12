@@ -1,0 +1,9 @@
+question1: graph
+
+question2:
+//1 to N+1 , wrong
+
+question3: -36 -35 -32 -27 -20 -11 0 13 28 45 64 85 108 133 160 189 220 253 288 325
+
+question4: giving a non- neagative integer N: Make a variable caleed x, and set it to -n*n count from 0 to 3N+1(exclusive)
+and for each number that you count(call it 'i': write down the value of x. Update x to be (x+2i-1);
