@@ -1,0 +1,26 @@
+# 使用类创建结构体
+class DataCollector(object):
+    class Struct(object):
+        def __init__(self, x, tar):
+            self.x = x
+            self.tar = tar
+ 
+    def get_value(self, x, tar):
+        self.x = x
+        self.tar = tar
+        return self.Struct(x, tar)
+ 
+datacollector = DataCollector()
+datacollector1 = datacollector.get_value('5698','shanghai')
+print(datacollector1.x)
+print(datacollector1.tar)
+
+ 
+#初始化类数组
+num = 13
+a=[DataCollector() for i in range(1,num+1)]
+
+for i in range(1,13):
+    a[i].x=i
+    print(f"d_{i}:",a[i].x)
+
